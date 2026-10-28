@@ -1,0 +1,52 @@
+[
+  {
+    "indicator": "8.8.8.8",
+    "type": "ip",
+    "severity": "clean",
+    "risk_score": 0,
+    "action_decided": "No action, 8.8.8.8 is clean",
+    "auto_approved": true,
+    "status": "SIMULATED - not executed against real infrastructure",
+    "decided_at": "2026-10-28T06:38:20.539922+00:00"
+  },
+  {
+    "indicator": "1.1.1.1",
+    "type": "ip",
+    "severity": "clean",
+    "risk_score": 0,
+    "action_decided": "No action, 1.1.1.1 is clean",
+    "auto_approved": true,
+    "status": "SIMULATED - not executed against real infrastructure",
+    "decided_at": "2026-10-28T06:38:20.539933+00:00"
+  },
+  {
+    "indicator": "185.220.101.45",
+    "type": "ip",
+    "severity": "critical",
+    "risk_score": 260,
+    "action_decided": "BLOCK IP 185.220.101.45 at perimeter firewall",
+    "auto_approved": true,
+    "status": "SIMULATED - not executed against real infrastructure",
+    "decided_at": "2026-10-28T06:38:20.539937+00:00"
+  },
+  {
+    "indicator": "44d88612fea8a8f36de82e1278abb02f",
+    "type": "hash",
+    "severity": "critical",
+    "risk_score": 640,
+    "action_decided": "QUARANTINE file with hash 44d88612fea8a8f36de82e1278abb02f on all endpoints",
+    "auto_approved": true,
+    "status": "SIMULATED - not executed against real infrastructure",
+    "decided_at": "2026-10-28T06:38:20.539940+00:00"
+  },
+  {
+    "indicator": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "type": "hash",
+    "severity": "clean",
+    "risk_score": 0,
+    "action_decided": "No action, e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 is clean",
+    "auto_approved": true,
+    "status": "SIMULATED - not executed against real infrastructure",
+    "decided_at": "2026-10-28T06:38:20.539942+00:00"
+  }
+]
