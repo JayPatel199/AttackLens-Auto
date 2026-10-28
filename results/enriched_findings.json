@@ -1,0 +1,100 @@
+[
+  {
+    "type": "ip",
+    "value": "8.8.8.8",
+    "note": "Google public DNS - should be clean",
+    "checked_at": "2026-10-28T06:34:50.181111",
+    "virustotal": {
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 53
+    },
+    "abuseipdb": {
+      "abuse_score": 0,
+      "country": "US",
+      "isp": "Google LLC",
+      "total_reports": 235,
+      "is_tor": false
+    },
+    "risk_score": 0,
+    "severity": "clean"
+  },
+  {
+    "type": "ip",
+    "value": "1.1.1.1",
+    "note": "Cloudflare DNS - should be clean",
+    "checked_at": "2026-10-28T06:35:07.095822",
+    "virustotal": {
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 56
+    },
+    "abuseipdb": {
+      "abuse_score": 0,
+      "country": "AU",
+      "isp": "APNIC and Cloudflare DNS Resolver project",
+      "total_reports": 175,
+      "is_tor": false
+    },
+    "risk_score": 0,
+    "severity": "clean"
+  },
+  {
+    "type": "ip",
+    "value": "185.220.101.45",
+    "note": "Known Tor exit node - likely flagged",
+    "checked_at": "2026-10-28T06:35:24.281175",
+    "virustotal": {
+      "malicious": 14,
+      "suspicious": 4,
+      "harmless": 45
+    },
+    "abuseipdb": {
+      "abuse_score": 100,
+      "country": "DE",
+      "isp": "Network for Tor-Exit traffic.",
+      "total_reports": 269,
+      "is_tor": true
+    },
+    "risk_score": 260,
+    "severity": "critical"
+  },
+  {
+    "type": "hash",
+    "value": "44d88612fea8a8f36de82e1278abb02f",
+    "note": "EICAR test file - known malicious test hash",
+    "checked_at": "2026-10-28T06:35:41.326406",
+    "virustotal": {
+      "malicious": 64,
+      "suspicious": 0,
+      "harmless": 0,
+      "type_description": "Powershell",
+      "names": [
+        "eicar.com-6085",
+        "eicar.com",
+        "eicar.com-1312"
+      ]
+    },
+    "risk_score": 640,
+    "severity": "critical"
+  },
+  {
+    "type": "hash",
+    "value": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "note": "Empty file hash - should be clean",
+    "checked_at": "2026-10-28T06:35:57.880721",
+    "virustotal": {
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "type_description": "unknown",
+      "names": [
+        "sad.txt",
+        "netcore,NAudio.Core,2.2.1",
+        "o7m4go.bat"
+      ]
+    },
+    "risk_score": 0,
+    "severity": "clean"
+  }
+]

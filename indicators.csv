@@ -1,0 +1,6 @@
+type,value,note
+ip,8.8.8.8,Google public DNS - should be clean
+ip,1.1.1.1,Cloudflare DNS - should be clean
+ip,185.220.101.45,Known Tor exit node - likely flagged
+hash,44d88612fea8a8f36de82e1278abb02f,EICAR test file - known malicious test hash
+hash,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,Empty file hash - should be clean
