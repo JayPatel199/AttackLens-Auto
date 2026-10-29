@@ -3,7 +3,7 @@
     "type": "ip",
     "value": "8.8.8.8",
     "note": "Google public DNS - should be clean",
-    "checked_at": "2026-10-28T06:34:50.181111",
+    "checked_at": "2026-10-29T06:27:09.135537+00:00",
     "virustotal": {
       "malicious": 0,
       "suspicious": 0,
@@ -13,7 +13,7 @@
       "abuse_score": 0,
       "country": "US",
       "isp": "Google LLC",
-      "total_reports": 235,
+      "total_reports": 237,
       "is_tor": false
     },
     "risk_score": 0,
@@ -23,17 +23,17 @@
     "type": "ip",
     "value": "1.1.1.1",
     "note": "Cloudflare DNS - should be clean",
-    "checked_at": "2026-10-28T06:35:07.095822",
+    "checked_at": "2026-10-29T06:27:27.668829+00:00",
     "virustotal": {
       "malicious": 0,
       "suspicious": 0,
-      "harmless": 56
+      "harmless": 57
     },
     "abuseipdb": {
       "abuse_score": 0,
       "country": "AU",
       "isp": "APNIC and Cloudflare DNS Resolver project",
-      "total_reports": 175,
+      "total_reports": 178,
       "is_tor": false
     },
     "risk_score": 0,
@@ -43,36 +43,36 @@
     "type": "ip",
     "value": "185.220.101.45",
     "note": "Known Tor exit node - likely flagged",
-    "checked_at": "2026-10-28T06:35:24.281175",
+    "checked_at": "2026-10-29T06:27:44.492019+00:00",
     "virustotal": {
       "malicious": 14,
-      "suspicious": 4,
-      "harmless": 45
+      "suspicious": 3,
+      "harmless": 46
     },
     "abuseipdb": {
       "abuse_score": 100,
       "country": "DE",
       "isp": "Network for Tor-Exit traffic.",
-      "total_reports": 269,
+      "total_reports": 268,
       "is_tor": true
     },
-    "risk_score": 260,
+    "risk_score": 255,
     "severity": "critical"
   },
   {
     "type": "hash",
     "value": "44d88612fea8a8f36de82e1278abb02f",
     "note": "EICAR test file - known malicious test hash",
-    "checked_at": "2026-10-28T06:35:41.326406",
+    "checked_at": "2026-10-29T06:28:01.327143+00:00",
     "virustotal": {
       "malicious": 64,
       "suspicious": 0,
       "harmless": 0,
       "type_description": "Powershell",
       "names": [
-        "eicar.com-6085",
-        "eicar.com",
-        "eicar.com-1312"
+        "eicar.com-44687",
+        "eicar.txt",
+        "eicar.com"
       ]
     },
     "risk_score": 640,
@@ -82,16 +82,16 @@
     "type": "hash",
     "value": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "note": "Empty file hash - should be clean",
-    "checked_at": "2026-10-28T06:35:57.880721",
+    "checked_at": "2026-10-29T06:28:18.690156+00:00",
     "virustotal": {
       "malicious": 0,
       "suspicious": 0,
       "harmless": 0,
       "type_description": "unknown",
       "names": [
-        "sad.txt",
-        "netcore,NAudio.Core,2.2.1",
-        "o7m4go.bat"
+        "netcore,static",
+        "chrome.exe",
+        "AnimaEngine.zip"
       ]
     },
     "risk_score": 0,

@@ -1,5 +1,5 @@
 import os, time, json, csv
-from datetime import datetime
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 import requests
 
@@ -77,7 +77,7 @@ for row in rows:
     ioc_type, value, note = row["type"], row["value"], row.get("note", "")
     print(f"Checking {ioc_type}: {value} ...")
     entry = {"type": ioc_type, "value": value, "note": note,
-              "checked_at": datetime.utcnow().isoformat()}
+              "checked_at": datetime.now(timezone.utc).isoformat()}
 
     if ioc_type == "ip":
         vt = check_ip_virustotal(value)
