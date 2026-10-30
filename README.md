@@ -1,5 +1,8 @@
 # AttackLens Auto: Security Orchestration, Automation and Response (SOAR) Playbook
 
+Live dashboard: https://attacklens-auto-4wzdewk278wdvwueazxkpu.streamlit.app/
+
+
 The automation counterpart to [AttackLens](https://github.com/JayPatel199/attacklens) (detection) and [AttackLens Red](https://github.com/JayPatel199/AttackLens-Red) (attack simulation). This project automatically enriches threat indicators, scores them, decides a response action, and sends real-time alerts, simulating how a SOAR platform (like Splunk SOAR or Tines) reduces manual analyst work.
 
 ## Results at a glance
